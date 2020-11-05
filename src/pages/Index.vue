@@ -9,16 +9,16 @@
           </h2>
         </div>
         <h1 class="text-4xl text-center lg:text-5xl">
-          O'zbek xalqi uchun qurilgan ilmiy .NET sayti!
+          O'zbek xalqi uchun qurilgan .NET sayti!
         </h1>
         <p class="text-xl font-medium text-center">
-          Start .
+          Biz bilan birga o'rganing va shakllantiring...
           <br>
-          <strong class="text-ui-primary">Got a minute?</strong>
+          <strong class="text-ui-primary">Bir daqiqangiz bormi?</strong>
         </p>
 
         <div class="py-4">
-          <code class="block px-4 py-1 select-all bg-ui-border text-ui-typo">gridsome create your-project https://github.com/mrcrmn/docc</code>
+          <code class="block px-4 py-1 select-all bg-ui-border text-ui-typo">dotnet run --project salom-dunyo</code>
         </div>
 
         <div class="flex justify-center mt-8">
@@ -26,7 +26,7 @@
             to="/docs/"
             class="flex items-center px-6 py-4 ml-auto text-2xl font-bold leading-none text-white border rounded-lg shadow-lg bg-ui-primary border-ui-primary transition-all duration-200 ease-out transform hover:shadow-xl hover:-translate-y-1"
           >
-            Get started
+            Gaz bosamiz!
             <ArrowRightCircleIcon class="ml-4" size="1x" />
           </g-link>
         </div>
