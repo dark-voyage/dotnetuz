@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: '.NET Uzbekistan',
+  siteName: '.NET UZB',
   icon: {
     favicon: './src/assets/favicon.png',
     touchicon: './src/assets/favicon.png'
