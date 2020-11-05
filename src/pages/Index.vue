@@ -5,14 +5,14 @@
         <div class="flex flex-col items-center mb-2 text-ui-primary">
           <Logo :width="80" />
           <h2 class="text-3xl text-6xl font-black tracking-tighter border-none">
-            DOCC
+            .NET Uzbekistan
           </h2>
         </div>
         <h1 class="text-4xl text-center lg:text-5xl">
-          Great Documentation starts here.
+          O'zbek xalqi uchun qurilgan ilmiy .NET sayti!
         </h1>
         <p class="text-xl font-medium text-center">
-          Perfect Lighthouse score out of the box. Easy to set-up. Dark mode included.
+          Start .
           <br>
           <strong class="text-ui-primary">Got a minute?</strong>
         </p>
@@ -32,7 +32,7 @@
         </div>
 
         <p class="mt-8 text-center">
-          Open Source. MIT License. <span class="border-b border-dashed border-ui-primary text-ui-primary">Make it your own</span>.
+          Open Source. CC0-1.0 Litsenziya. <span class="border-b border-dashed border-ui-primary text-ui-primary">Qonunga xilofmidiyey bilmadim koroche!)</span>.
         </p>
 
       </div>
