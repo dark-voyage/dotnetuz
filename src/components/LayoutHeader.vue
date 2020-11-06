@@ -10,7 +10,7 @@
 						title="Home"
 						to="/"
 					>
-						<Logo :width="160" class="text-ui-primary" />
+						<Logo :width="100" class="text-ui-primary" />
 					</g-link>
 
 					<div
