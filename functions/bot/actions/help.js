@@ -1,4 +1,3 @@
-
 const { getUser } = require("../components/helper");
 
 module.exports = async ctx => {

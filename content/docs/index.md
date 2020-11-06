@@ -6,8 +6,8 @@ next: "/docs/installation/"
 
 # Introduction
 
-It allows you to quickly start writing your
-technical documentation for any kind of project.
+It allows you to quickly start writing your technical documentation for any kind
+of project.
 
 ## Fast by default
 

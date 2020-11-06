@@ -1,4 +1,4 @@
-const { Markup } = require("telegraf")
+const { Markup } = require("telegraf");
 const { getUser } = require("../components/helper");
 
 module.exports = async ctx => {
@@ -9,9 +9,7 @@ module.exports = async ctx => {
 	return ctx.reply(text, {
 		parse_mode: "HTML",
 		reply_markup: Markup.inlineKeyboard([
-			[
-				Markup.urlButton(`Websayt`, `https://dot-net.uz`)
-			]
+			[Markup.urlButton(`Websayt`, `https://dot-net.uz`)]
 		])
 	});
 };
