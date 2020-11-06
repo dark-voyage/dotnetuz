@@ -40,4 +40,4 @@ you're ready to go!**
 
 <p align="center">Copyright &copy; 2020 <a href="http://dot-net.uz" target="_blank">.NET UZB TEAM</a></p>
 
-<p align="center"><a href="https://github.com/dotnet-uz/www/blob/master/license"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=CC0-1.0&logoColor=eceff4&logo=github&colorA=5412b8&colorB=9f52a3"/></a></p>
+<p align="center"><a href="https://github.com/dotnet-uz/www/blob/master/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=CC0-1.0&logoColor=eceff4&logo=github&colorA=5412b8&colorB=9f52a3"/></a></p>
