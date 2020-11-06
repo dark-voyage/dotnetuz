@@ -1,0 +1,19 @@
+{
+	"name": "bot",
+	"version": "1.0.0",
+	"description": "Serverless bot built on top of Netlify Serverless Functions",
+	"main": "bot.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"Telegram",
+		"Bot",
+		"Serverless"
+	],
+	"author": "Genemator Sakhib",
+	"license": "MIT",
+	"dependencies": {
+		"telegraf": "^3.36.0"
+	}
+}

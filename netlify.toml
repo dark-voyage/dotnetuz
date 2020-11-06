@@ -1,3 +1,10 @@
 [build]
-  command = "gridsome build"
+  functions = "functions"
+  command = "gridsome build && netlify-lambda install && mkdir ./public"
   publish = "dist/"
+[template.environment]
+  TELEGRAM_BOT_TOKEN = "Telegram bot token here"
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
