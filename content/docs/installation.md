@@ -11,7 +11,8 @@ There are several ways to to install this theme.
 
 ## Using the Gridsome CLI
 
-The easiest way to install this theme or a Gridsome theme in general is by using their CLI tool.
+The easiest way to install this theme or a Gridsome theme in general is by using
+their CLI tool.
 
 If you don't already have it installed, simply run:
 
@@ -27,9 +28,12 @@ If everything is working as expected, run the following command:
 gridsome create your-project-name https://github.com/mrcrmn/docc
 ```
 
-This command creates a folder named `your-project-name` in your current working directory, clones the repository and automatically installs the dependencies.
+This command creates a folder named `your-project-name` in your current working
+directory, clones the repository and automatically installs the dependencies.
 
-If everything is downloaded and installed you can now run `npm run develop` which starts the development server and bundles all assets. After bootstrapping has finished, head to `http://localhost:8080` to view your freshly created site!
+If everything is downloaded and installed you can now run `npm run develop`
+which starts the development server and bundles all assets. After bootstrapping
+has finished, head to `http://localhost:8080` to view your freshly created site!
 
 ## Installing manually
 
@@ -64,4 +68,5 @@ Or by using yarn:
 yarn
 ```
 
-After all dependencies are installed you can now run `npm run develop` to start the development server!
+After all dependencies are installed you can now run `npm run develop` to start
+the development server!
