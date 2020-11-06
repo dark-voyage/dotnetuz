@@ -17,7 +17,7 @@
 					Biz bilan birga o'rganing va shakllantiring...
 					<br />
 					<strong class="text-ui-primary"
-						>Bir necha daqiqangiz bormi? </strong
+						>Bir necha daqiqangiz bormi? Unda urinib ko'ring!</strong
 					>
 				</p>
 
