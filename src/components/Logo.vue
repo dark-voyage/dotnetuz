@@ -1,5 +1,10 @@
 <template>
-	<img src="/logo.png" :width="getWidth" :height="getHeight"  alt=".NET Uzbekistan's Logo"/>
+	<img
+		src="/logo.png"
+		:width="getWidth"
+		:height="getHeight"
+		alt=".NET Uzbekistan's Logo"
+	/>
 </template>
 
 <script>

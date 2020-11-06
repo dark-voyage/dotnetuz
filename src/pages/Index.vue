@@ -17,7 +17,8 @@
 					Biz bilan birga o'rganing va shakllantiring...
 					<br />
 					<strong class="text-ui-primary"
-						>Bir necha daqiqangiz bormi? Unda urinib ko'ring!</strong
+						>Bir necha daqiqangiz bormi? Unda urinib
+						ko'ring!</strong
 					>
 				</p>
 
@@ -42,7 +43,8 @@
 					Open Source. CC0-1.0 Litsenziya.
 					<span
 						class="border-b border-dashed border-ui-primary text-ui-primary"
-						>Qonunga xilofmidiyey bilmadim koroche bilmadim! ;)</span
+						>Qonunga xilofmidiyey bilmadim koroche bilmadim!
+						;)</span
 					>.
 				</p>
 			</div>
@@ -62,7 +64,8 @@
 						Judayam tez
 					</h3>
 					<p class="text-lg text-left">
-						Sayt Gridsome texnologiyasi asosida yozilgan. Ichida Vue.js keladi va statik fayllar chiqarib beradi.
+						Sayt Gridsome texnologiyasi asosida yozilgan. Ichida
+						Vue.js keladi va statik fayllar chiqarib beradi.
 						Bundanda tez bo'lishi mumkin emas!
 						<span
 							class="border-b border-dashed border-ui-primary text-ui-primary"
@@ -81,12 +84,13 @@
 						Tezkor qidiruv
 					</h3>
 					<p class="text-lg text-left">
-						Hamma sarlavhalar saqlangan. Tezkor qidiruv
-						Fuse.js yordamida yozilgan. Qidirayotgan ma'lumotingizni
+						Hamma sarlavhalar saqlangan. Tezkor qidiruv Fuse.js
+						yordamida yozilgan. Qidirayotgan ma'lumotingizni
 						<span
 							class="border-b border-dashed border-ui-primary text-ui-primary"
 							>ko'z ochib yumguncha</span
-						> topasiz.
+						>
+						topasiz.
 					</p>
 				</div>
 
