@@ -16,7 +16,7 @@ module.exports = {
 		twitter: process.env.URL_TWITTER || false,
 		github: process.env.URL_GITHUB || false,
 		nav: {
-			links: [{ path: "/docs/", title: "Docs" }]
+			links: [{ path: "/docs/", title: "Qo'llanma" }]
 		},
 		sidebar: [
 			{

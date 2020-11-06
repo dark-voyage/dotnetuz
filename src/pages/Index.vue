@@ -17,7 +17,7 @@
 					Biz bilan birga o'rganing va shakllantiring...
 					<br />
 					<strong class="text-ui-primary"
-						>Bir daqiqangiz bormi?</strong
+						>Bir necha daqiqangiz bormi? </strong
 					>
 				</p>
 
@@ -59,14 +59,14 @@
 					<h3
 						class="font-bold tracking-wide uppercase text-ui-primary"
 					>
-						Incredibly Fast
+						Judayam tez
 					</h3>
 					<p class="text-lg text-left">
-						Powered by Gridsome. Built on Vue. Outputs static files.
-						It wont't get any faster than this.
+						Sayt Gridsome texnologiyasi asosida yozilgan. Ichida Vue.js keladi va statik fayllar chiqarib beradi.
+						Bundanda tez bo'lishi mumkin emas!
 						<span
 							class="border-b border-dashed border-ui-primary text-ui-primary"
-							>No seriously</span
+							>Be hazl</span
 						>.
 					</p>
 				</div>
@@ -78,15 +78,15 @@
 					<h3
 						class="font-bold tracking-wide uppercase text-ui-primary"
 					>
-						Instant Search
+						Tezkor qidiruv
 					</h3>
 					<p class="text-lg text-left">
-						All headlines are indexed. Instant search powered by
-						Fuse.js. Find what you are looking for in the
+						Hamma sarlavhalar saqlangan. Tezkor qidiruv
+						Fuse.js yordamida yozilgan. Qidirayotgan ma'lumotingizni
 						<span
 							class="border-b border-dashed border-ui-primary text-ui-primary"
-							>blink of an eye</span
-						>.
+							>ko'z ochib yumguncha</span
+						> topasiz.
 					</p>
 				</div>
 
@@ -97,11 +97,11 @@
 					<h3
 						class="font-bold tracking-wide uppercase text-ui-primary"
 					>
-						Lights out
+						Juda yorug', juda shira
 					</h3>
 					<p class="text-lg text-left">
-						Working late at night again? Enable dark mode with the
-						click of a button.
+						Kechqurun ishlaysizmi? Tungi ko'rinishimiz yoqib oling
+						va ko'zingizning nurini asrang.
 					</p>
 				</div>
 			</div>
@@ -130,9 +130,9 @@ export default {
 	},
 
 	metaInfo() {
-		const title = "Great Documentation starts here";
+		const title = ".NET Uzbekistan";
 		const description =
-			"DOCC is a starter theme with instant search and dark mode for writing great technical documentation. Based on Gridsome!";
+			".NET Uzbekistan - DotNet yo'nalishi bo'yicha O'zbekistonda tashkil qilingan community!";
 
 		return {
 			title: title,
