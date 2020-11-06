@@ -9,7 +9,7 @@
               title="Home"
               to="/"
           >
-            <Logo :width="80" class="text-ui-primary"/>
+            <Logo :width="160" class="text-ui-primary"/>
           </g-link>
 
           <div v-if="settings.nav.links.length > 0" class="hidden ml-2 mr-5 sm:block sm:ml-8">
