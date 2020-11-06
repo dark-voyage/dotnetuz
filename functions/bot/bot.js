@@ -12,7 +12,7 @@ bot.help(ctx => {
 exports.handler = async event => {
 	try {
 		await bot.handleUpdate(JSON.parse(event.body));
-		return { statusCode: 200, body: "" };
+		return { statusCode: 200, body: "Success madefake" };
 	} catch (e) {
 		console.log(e);
 		return {
