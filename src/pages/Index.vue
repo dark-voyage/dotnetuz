@@ -43,8 +43,7 @@
 					Open Source. CC0-1.0 Litsenziya.
 					<span
 						class="border-b border-dashed border-ui-primary text-ui-primary"
-						>Qonunga xilofmidiyey koroche bilmadim!
-						;)</span
+						>Qonunga xilofmidiyey koroche bilmadim! ;)</span
 					>.
 				</p>
 			</div>
