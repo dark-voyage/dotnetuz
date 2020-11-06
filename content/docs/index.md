@@ -6,8 +6,7 @@ next: "/docs/installation/"
 
 # Introduction
 
-Docc is a starter theme for [Gridsome](https://gridsome.org/) which is a static
-site generator powered by Vue. It allows you to quickly start writing your
+It allows you to quickly start writing your
 technical documentation for any kind of project.
 
 ## Fast by default
