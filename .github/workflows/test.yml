@@ -23,6 +23,6 @@ jobs:
           key: web-${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             web-${{ runner.os }}-yarn-
-      - run: yarn --frozen-lockfile
+      - run: yarn
       - run: yarn format:check
 #      - run: yarn test
