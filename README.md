@@ -4,7 +4,7 @@
     </a>
 </p>
 
-<h2 align="center">Virtual Senpai Assistant</h2>
+<h2 align="center">.NET UZBEKISTAN WWW</h2>
 
 <p align="center">
 <a href="https://github.com/dotnet-uz/www/actions">
