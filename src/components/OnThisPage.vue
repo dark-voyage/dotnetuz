@@ -1,15 +1,20 @@
 <template>
-  <div class="mt-8 sm:pl-4 md:pl-6 md:pt-12 lg:pl-8 sm:pb-16 sm:border-l border-ui-border md:mt-0">
-    <h3 class="pt-0 mt-0 text-sm tracking-wide uppercase border-none">Shu sahifada</h3>
+  <div
+    class="mt-8 sm:pl-4 md:pl-6 md:pt-12 lg:pl-8 sm:pb-16 sm:border-l border-ui-border md:mt-0"
+  >
+    <h3 class="pt-0 mt-0 text-sm tracking-wide uppercase border-none">
+      Shu sahifada
+    </h3>
     <div>
       <ul>
         <li
           v-for="(heading, index) in headings"
           :key="`${page.path}${heading.anchor}`"
           :class="{
-            'border-t border-dashed border-ui-border pt-2 mt-2': index > 0 && heading.depth === 2,
+            'border-t border-dashed border-ui-border pt-2 mt-2':
+              index > 0 && heading.depth === 2,
             'font-semibold': heading.depth === 2,
-            [`depth-${heading.depth}`]: true,
+            [`depth-${heading.depth}`]: true
           }"
         >
           <g-link
@@ -41,9 +46,9 @@
 export default {
   data() {
     return {
-      activeAnchor: '',
+      activeAnchor: "",
       observer: null
-    }
+    };
   },
 
   computed: {
@@ -83,10 +88,10 @@ export default {
       // We want to give the link of the intersecting
       // headline active and add the hash to the url.
       if (id) {
-        this.activeAnchor = '#' + id;
+        this.activeAnchor = "#" + id;
 
         if (history.replaceState) {
-          history.replaceState(null, null, '#' + id);
+          history.replaceState(null, null, "#" + id);
         }
       }
     },
@@ -94,18 +99,18 @@ export default {
     initObserver() {
       this.observer = new IntersectionObserver(this.observerCallback, {
         // This rootMargin should allow intersections at the top of the page.
-        rootMargin: '0px 0px 99999px',
+        rootMargin: "0px 0px 99999px",
         threshold: 1
       });
 
       const elements = document.querySelectorAll(
-        '.content h2, .content h3, .content h4, .content h5, .content h6'
+        ".content h2, .content h3, .content h4, .content h5, .content h6"
       );
 
       for (let i = 0; i < elements.length; i++) {
         this.observer.observe(elements[i]);
       }
-    },
+    }
   },
 
   mounted() {

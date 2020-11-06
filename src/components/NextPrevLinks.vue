@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import { ArrowLeftIcon, ArrowRightIcon } from 'vue-feather-icons';
+import { ArrowLeftIcon, ArrowRightIcon } from "vue-feather-icons";
 
 export default {
   components: {
@@ -39,14 +39,14 @@ export default {
       return this.$page.allMarkdownPage.edges.map(edge => edge.node);
     },
     next() {
-      if (this.pages && ! this.page.next) {
+      if (this.pages && !this.page.next) {
         return false;
       }
 
       return this.pages.find(page => page.path === this.page.next);
     },
     prev() {
-      if (this.pages && ! this.page.prev) {
+      if (this.pages && !this.page.prev) {
         return false;
       }
 

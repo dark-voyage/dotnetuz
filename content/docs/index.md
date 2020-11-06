@@ -1,7 +1,7 @@
 ---
-description: ''
-sidebar: 'docs'
-next: '/docs/installation/'
+description: ""
+sidebar: "docs"
+next: "/docs/installation/"
 ---
 
 # Introduction
@@ -40,7 +40,7 @@ The most inportant colors are defined in the `src/layouts/Default.vue` file at t
 
 ```css
 :rrot {
-  --color-ui-primary: theme('colors.orange.600');
+  --color-ui-primary: theme("colors.orange.600");
 }
 ```
 

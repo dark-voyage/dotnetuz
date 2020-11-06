@@ -13,12 +13,14 @@
         </h1>
         <p class="text-xl font-medium text-center">
           Biz bilan birga o'rganing va shakllantiring...
-          <br>
+          <br />
           <strong class="text-ui-primary">Bir daqiqangiz bormi?</strong>
         </p>
 
         <div class="py-4">
-          <code class="block px-4 py-1 select-all bg-ui-border text-ui-typo">dotnet run --project salom-dunyo</code>
+          <code class="block px-4 py-1 select-all bg-ui-border text-ui-typo"
+            >dotnet run --project salom-dunyo</code
+          >
         </div>
 
         <div class="flex justify-center mt-8">
@@ -32,52 +34,78 @@
         </div>
 
         <p class="mt-8 text-center">
-          Open Source. CC0-1.0 Litsenziya. <span class="border-b border-dashed border-ui-primary text-ui-primary">Qonunga xilofmidiyey bilmadim koroche!)</span>.
+          Open Source. CC0-1.0 Litsenziya.
+          <span class="border-b border-dashed border-ui-primary text-ui-primary"
+            >Qonunga xilofmidiyey bilmadim koroche!)</span
+          >.
         </p>
-
       </div>
 
-      <div class="pt-8 mx-auto mt-8 border-t md:mt-16 md:pt-16 border-top border-ui-border max-w-screen-sm"></div>
+      <div
+        class="pt-8 mx-auto mt-8 border-t md:mt-16 md:pt-16 border-top border-ui-border max-w-screen-sm"
+      ></div>
 
       <div class="flex flex-wrap justify-center -mx-4">
-        <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
+        <div
+          class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3"
+        >
           <ZapIcon size="3x" class="mb-6 text-ui-primary" />
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
             Incredibly Fast
           </h3>
           <p class="text-lg text-left">
-            Powered by Gridsome. Built on Vue. Outputs static files. It wont't get any faster than this. <span class="border-b border-dashed border-ui-primary text-ui-primary">No seriously</span>.
+            Powered by Gridsome. Built on Vue. Outputs static files. It wont't
+            get any faster than this.
+            <span
+              class="border-b border-dashed border-ui-primary text-ui-primary"
+              >No seriously</span
+            >.
           </p>
         </div>
 
-        <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
+        <div
+          class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3"
+        >
           <SearchIcon size="3x" class="mb-6 text-ui-primary" />
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
             Instant Search
           </h3>
           <p class="text-lg text-left">
-            All headlines are indexed. Instant search powered by Fuse.js. Find what you are looking for in the <span class="border-b border-dashed border-ui-primary text-ui-primary">blink of an eye</span>.
+            All headlines are indexed. Instant search powered by Fuse.js. Find
+            what you are looking for in the
+            <span
+              class="border-b border-dashed border-ui-primary text-ui-primary"
+              >blink of an eye</span
+            >.
           </p>
         </div>
 
-        <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
+        <div
+          class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3"
+        >
           <MoonIcon size="3x" class="mb-6 text-ui-primary" />
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
             Lights out
           </h3>
           <p class="text-lg text-left">
-            Working late at night again? Enable dark mode with the click of a button.
+            Working late at night again? Enable dark mode with the click of a
+            button.
           </p>
         </div>
       </div>
-
     </div>
   </Layout>
 </template>
 
 <script>
-import Logo from '@/components/Logo';
-import { ArrowRightCircleIcon, ZapIcon, CodeIcon, MoonIcon, SearchIcon } from 'vue-feather-icons';
+import Logo from "@/components/Logo";
+import {
+  ArrowRightCircleIcon,
+  ZapIcon,
+  CodeIcon,
+  MoonIcon,
+  SearchIcon
+} from "vue-feather-icons";
 
 export default {
   components: {
@@ -90,40 +118,41 @@ export default {
   },
 
   metaInfo() {
-    const title = 'Great Documentation starts here';
-    const description = 'DOCC is a starter theme with instant search and dark mode for writing great technical documentation. Based on Gridsome!';
+    const title = "Great Documentation starts here";
+    const description =
+      "DOCC is a starter theme with instant search and dark mode for writing great technical documentation. Based on Gridsome!";
 
     return {
       title: title,
       meta: [
         {
-          name: 'description',
+          name: "description",
           content: description
         },
         {
-          key: 'og:title',
-          name: 'og:title',
-          content: title,
+          key: "og:title",
+          name: "og:title",
+          content: title
         },
         {
-          key: 'twitter:title',
-          name: 'twitter:title',
-          content: title,
+          key: "twitter:title",
+          name: "twitter:title",
+          content: title
         },
         {
-          key: 'og:description',
-          name: 'og:description',
-          content: description,
+          key: "og:description",
+          name: "og:description",
+          content: description
         },
         {
-          key: 'twitter:description',
-          name: 'twitter:description',
-          content: description,
-        },
+          key: "twitter:description",
+          name: "twitter:description",
+          content: description
+        }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style>

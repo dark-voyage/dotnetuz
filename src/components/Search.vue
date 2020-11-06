@@ -7,7 +7,9 @@
   >
     <label class="relative block">
       <span class="sr-only">Dokumentatsiya bo'ylab qidirish...</span>
-      <div class="absolute inset-y-0 left-0 flex items-center justify-center px-3 py-2 opacity-50">
+      <div
+        class="absolute inset-y-0 left-0 flex items-center justify-center px-3 py-2 opacity-50"
+      >
         <SearchIcon size="1.25x" class="text-ui-typo" />
       </div>
       <input
@@ -15,22 +17,26 @@
         type="search"
         :value="query"
         class="block w-full py-2 pl-10 pr-4 border-2 rounded-lg bg-ui-sidebar border-ui-sidebar focus:bg-ui-background"
-        :class="{'rounded-b-none': showResult,}"
+        :class="{ 'rounded-b-none': showResult }"
         placeholder="Dokumentatsiya bo'ylab qidirish..."
         @focus="focused = true"
         @blur="focused = false"
-        @input="focusIndex = -1; query = $event.target.value"
+        @input="
+          focusIndex = -1;
+          query = $event.target.value;
+        "
         @change="query = $event.target.value"
       />
     </label>
-    <div 
+    <div
       v-if="showResult"
       class="fixed inset-x-0 z-50 overflow-y-auto border-2 border-t-0 rounded-lg rounded-t-none shadow-lg results bg-ui-background bottom:0 sm:bottom-auto sm:absolute border-ui-sidebar"
       style="max-height: calc(100vh - 120px)"
     >
       <ul class="px-4 py-2 m-0">
         <li v-if="results.length === 0" class="px-2">
-          <span class="font-bold">{{ query }} haqida ma'lumot mavjud emas!</span>.
+          <span class="font-bold">{{ query }} haqida ma'lumot mavjud emas!</span
+          >.
         </li>
 
         <li
@@ -48,10 +54,9 @@
             :to="result.path + result.anchor"
             class="block p-2 -mx-2 text-base font-bold rounded-lg"
             :class="{
-              'bg-ui-sidebar text-ui-primary': focusIndex === index,
+              'bg-ui-sidebar text-ui-primary': focusIndex === index
             }"
           >
-
             <span v-if="result.value === result.title">
               {{ result.value }}
             </span>
@@ -61,7 +66,6 @@
               <ChevronRightIcon size="1x" class="mx-1" />
               <span class="font-normal opacity-75">{{ result.value }}</span>
             </span>
-
           </g-link>
         </li>
       </ul>
@@ -89,8 +93,8 @@ query Search {
 </static-query>
 
 <script>
-import Fuse from 'fuse.js';
-import { ChevronRightIcon, SearchIcon } from 'vue-feather-icons';
+import Fuse from "fuse.js";
+import { ChevronRightIcon, SearchIcon } from "vue-feather-icons";
 
 export default {
   components: {
@@ -100,7 +104,7 @@ export default {
 
   data() {
     return {
-      query: '',
+      query: "",
       focusIndex: -1,
       focused: false
     };
@@ -108,15 +112,17 @@ export default {
   computed: {
     results() {
       const fuse = new Fuse(this.headings, {
-        keys: ['value'],
-        threshold: .25
+        keys: ["value"],
+        threshold: 0.25
       });
 
       return fuse.search(this.query).slice(0, 15);
     },
     headings() {
       let result = [];
-      const allPages = this.$static.allMarkdownPage.edges.map(edge => edge.node);
+      const allPages = this.$static.allMarkdownPage.edges.map(
+        edge => edge.node
+      );
 
       // Create the array of all headings of all pages.
       allPages.forEach(page => {
@@ -162,18 +168,14 @@ export default {
         result = this.results[this.focusIndex];
       }
 
-      this.$router.push(
-        result.path + result.anchor
-      );
+      this.$router.push(result.path + result.anchor);
 
       // Unfocus the input and reset the query.
       this.$refs.input.blur();
-      this.query = '';
+      this.query = "";
     }
   }
-
 };
 </script>
 
-<style>
-</style>
+<style></style>
