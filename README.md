@@ -20,9 +20,9 @@
 <p align="center">Learn and sharpen your .NET skills in our <a href="https://dot-net.uz" target="_blank">Community</a>.</p>
 
 **This bot was built with [Gridsome](https://github.com/gridsome/gridsome) in
-[Node.js](https://nodejs.org/en/). This website works as package modular, so don't
-worry about adding your own customizations. It will not affect to the bot's
-working process. Just, don't forget to add your changes to index and
+[Node.js](https://nodejs.org/en/). This website works as package modular, so
+don't worry about adding your own customizations. It will not affect to the
+bot's working process. Just, don't forget to add your changes to index and
 you're ready to go!**
 
 > The website is still in beta phase so feel free to
@@ -33,10 +33,10 @@ you're ready to go!**
 
 > **Important Note:** Under the CC0-1.0 license, you are not allowed to run your
 > own instance unless Genemator won't permit
-> [(this repository)](https://github.com/dotnet-uz/www). If you're modifying this
-> source and making your own bot, you have to ask for permission from creator
-> "Genemator" according to the CC0-1.0 license. Check [LICENSE](license) for
-> more info.
+> [(this repository)](https://github.com/dotnet-uz/www). If you're modifying
+> this source and making your own bot, you have to ask for permission from
+> creator "Genemator" according to the CC0-1.0 license. Check [LICENSE](license)
+> for more info.
 
 <p align="center">Copyright &copy; 2020 <a href="http://dot-net.uz" target="_blank">.NET UZB TEAM</a></p>
 
