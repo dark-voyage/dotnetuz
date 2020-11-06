@@ -24,7 +24,7 @@
 				<div class="py-4">
 					<code
 						class="block px-4 py-1 select-all bg-ui-border text-ui-typo"
-						>dotnet run --project salom-dunyo</code
+						>dotnet run salom-dunyo</code
 					>
 				</div>
 
