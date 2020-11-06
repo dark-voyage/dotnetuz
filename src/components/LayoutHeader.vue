@@ -12,7 +12,7 @@
 					>
 						<Logo :width="40" class="text-ui-primary" />
 						<span
-							class="hidden ml-2 text-xl whitespace-no-wrap font-black tracking-tighter uppercase sm:block"
+							class="hidden ml-2 text-xl whitespace-pre font-black tracking-tighter uppercase sm:block"
 						>
 							{{ meta.siteName }}
 						</span>
