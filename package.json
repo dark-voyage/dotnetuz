@@ -10,11 +10,6 @@
     "format:check": "prettier --check \"**/*.{js,json,md,vue}\"\n",
     "update": "yarn update"
   },
-  "engines": {
-    "node": ">=15.0.0",
-    "npm": ">=7.0.0",
-    "yarn": ">=1.22.0"
-  },
   "dependencies": {
     "gridsome": "^0.7.0"
   },
