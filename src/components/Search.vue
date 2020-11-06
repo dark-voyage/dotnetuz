@@ -30,7 +30,7 @@
     >
       <ul class="px-4 py-2 m-0">
         <li v-if="results.length === 0" class="px-2">
-          No results for <span class="font-bold">{{ query }}</span>.
+          <span class="font-bold">{{ query }} haqida ma'lumot mavjud emas!</span>.
         </li>
 
         <li
