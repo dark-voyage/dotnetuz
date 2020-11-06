@@ -14,7 +14,7 @@
 						<span
 							class="hidden ml-2 text-xl whitespace-pre font-black tracking-tighter uppercase sm:block"
 						>
-							{{ meta.siteName }}
+							.NET
 						</span>
 					</g-link>
 
